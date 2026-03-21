@@ -1,13 +1,139 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
+<html lang="en">
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermoregulation Simulator</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind CSS (CDN for No-Build requirement) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: "#f0f4f8", // Cool light gray
+                        surface: "#ffffff",     // White panels
+                        primary: "#0284c7",    // Sky-600
+                        secondary: "#64748b",  // Slate 500
+                        success: "#16a34a",    // Green 600
+                        warning: "#d97706",    // Amber 600
+                        danger: "#dc2626",     // Red 600
+                        info: "#2563eb"        // Blue 600
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'heartbeat': 'heartbeat 1.5s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        heartbeat: {
+                            '0%, 100%': { transform: 'scale(1)' },
+                            '15%': { transform: 'scale(1.15)' },
+                            '30%': { transform: 'scale(1)' },
+                            '45%': { transform: 'scale(1.15)' },
+                            '60%': { transform: 'scale(1)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermoregulation Simulator</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind CSS (CDN for No-Build requirement) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: "#f0f4f8", // Cool light gray
+                        surface: "#ffffff",     // White panels
+                        primary: "#0284c7",    // Sky-600
+                        secondary: "#64748b",  // Slate 500
+                        success: "#16a34a",    // Green 600
+                        warning: "#d97706",    // Amber 600
+                        danger: "#dc2626",     // Red 600
+                        info: "#2563eb"        // Blue 600
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'heartbeat': 'heartbeat 1.5s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        heartbeat: {
+                            '0%, 100%': { transform: 'scale(1)' },
+                            '15%': { transform: 'scale(1.15)' },
+                            '30%': { transform: 'scale(1)' },
+                            '45%': { transform: 'scale(1.15)' },
+                            '60%': { transform: 'scale(1)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-background text-slate-800 overflow-hidden h-screen w-screen selection:bg-primary/20">
+
+    <!-- App Root -->
+    <div id="app" class="h-full w-full"></div>
+
+    <!-- Logic -->
+    <script src="script.js"></script>
 </body>
+
+</html>">
+</head>
+
+<body class="bg-background text-slate-800 overflow-hidden h-screen w-screen selection:bg-primary/20">
+
+    <!-- App Root -->
+    <div id="app" class="h-full w-full"></div>
+
+    <!-- Logic -->
+    <script src="script.js"></script>
+</body>
+
 </html>
