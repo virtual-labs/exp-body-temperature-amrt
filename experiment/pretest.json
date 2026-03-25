@@ -1,39 +1,88 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+          "question": "1. The normal human body temperature is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "35°C",
+        "b": "36°C",
+        "c": "37°C",
+        "d": "38°C"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },   
+
+
+
+    {
+      "question": "2. The brain part involved in controlling body temperature:",
+      "answers": {
+        "a": "Cerebellum",
+        "b": "Medulla",
+        "c": "Hypothalamus",
+        "d": "Cortex"
       },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
+
+
+
+
+
+
+
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. The main purpose of sweating is:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Store energy",
+        "b": "Increase metabolism",
+        "c": "Increase heat",
+        "d": "Reduce heat"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. Homeostasis refers to:",
+      "answers": {
+        "a": "Constant movement",
+        "b": "Stable internal environment",
+        "c": "External adaptation only",
+        "d": "Muscle activity"
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Thermoregulation helps to maintain:",
+      "answers": {
+        "a": "Blood pressure",
+        "b": "Body temperature",
+        "c": "Oxygen levels",
+        "d": "Heart rhythm"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
-}
+}	 
+
+
+
+
+
+
+
