@@ -1,39 +1,84 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+          "question": "1. The mechanism that is most effective for cooling the body:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Radiation",
+        "b": "Conduction",
+        "c": "Convection",
+        "d": "Evaporation (sweating)"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },   
+
+
+
+    {
+      "question": "2. Activation of the heat loss center leads to:",
+      "answers": {
+        "a": "Shivering",
+        "b": "Vasoconstriction",
+        "c": "Sweating and vasodilation",
+        "d": "Increased metabolism"
       },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
+
+
+
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. During hyperthermia, heart rate increases mainly to:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Reduce blood flow",
+        "b": "Increase heat production",
+        "c": "Transport heat to the skin",
+        "d": "Stop sweating"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+      
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. The mechanism of thermoregulation is important:",
+      "answers": {
+        "a": "For digestion only",
+        "b": "For muscle movement only",
+        "c": "For maintaining enzyme activity and metabolism",
+        "d": "For breathing only"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. The hypothalamic region responsible for heat loss is:",
+      "answers": {
+        "a": "Posterior hypothalamus",
+        "b": "Anterior (preoptic) hypothalamus",
+        "c": "Cerebellum",
+        "d": "Medulla"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
-}
+}	 
+
+
+
+
+
+
+
