@@ -586,8 +586,8 @@ function RenderLandingPage() {
 
         <!-- Amrita Logo — bottom-left on all screen sizes -->
         <div class="absolute bottom-5 left-4 md:bottom-6 md:left-6 z-20 flex items-center gap-3">
-            <img src="logo.jpg" alt="Amrita University"
-                 class="h-9 md:h-14 w-auto object-contain drop-shadow-md transition-transform hover:scale-105"
+            <img src="logo.png" alt="Amrita University"
+                  // class="h-9 md:h-14 w-auto object-contain drop-shadow-md transition-transform hover:scale-105"
                  style="max-width:150px">
         </div>
 
@@ -618,8 +618,8 @@ function RenderSimulator() {
 
             <!-- Header -->
             <div class="flex flex-col gap-1 border-b border-slate-200 p-3 md:p-5 md:pb-4">
-                <img src="logo.jpg" alt="Amrita University"
-                     class="h-7 md:h-9 w-auto object-contain mb-1"
+                <img src="logo.png" alt="Amrita University"
+                     // class="h-7 md:h-9 w-auto object-contain mb-1"
                      style="max-width:130px">
 
             </div>
