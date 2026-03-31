@@ -586,7 +586,7 @@ function RenderLandingPage() {
 
         <!-- Amrita Logo — bottom-left on all screen sizes -->
         <div class="absolute bottom-5 left-4 md:bottom-6 md:left-6 z-20 flex items-center gap-3">
-            <img src="amrita_logo.jpg" alt="Amrita University"
+            <img src="logo.jpg" alt="Amrita University"
                  class="h-9 md:h-14 w-auto object-contain drop-shadow-md transition-transform hover:scale-105"
                  style="max-width:150px">
         </div>
