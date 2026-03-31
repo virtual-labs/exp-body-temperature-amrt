@@ -618,7 +618,7 @@ function RenderSimulator() {
 
             <!-- Header -->
             <div class="flex flex-col gap-1 border-b border-slate-200 p-3 md:p-5 md:pb-4">
-                <img src="amrita_logo.jpg" alt="Amrita University"
+                <img src="logo.jpg" alt="Amrita University"
                      class="h-7 md:h-9 w-auto object-contain mb-1"
                      style="max-width:130px">
 
