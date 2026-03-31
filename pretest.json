@@ -1,0 +1,88 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+          "question": "1. The normal human body temperature is:",
+      "answers": {
+        "a": "35°C",
+        "b": "36°C",
+        "c": "37°C",
+        "d": "38°C"
+      },
+ 
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },   
+
+
+
+    {
+      "question": "2. The brain part involved in controlling body temperature:",
+      "answers": {
+        "a": "Cerebellum",
+        "b": "Medulla",
+        "c": "Hypothalamus",
+        "d": "Cortex"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+
+
+
+
+
+    {
+      "question": "3. The main purpose of sweating is:",
+      "answers": {
+        "a": "Store energy",
+        "b": "Increase metabolism",
+        "c": "Increase heat",
+        "d": "Reduce heat"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "4. Homeostasis refers to:",
+      "answers": {
+        "a": "Constant movement",
+        "b": "Stable internal environment",
+        "c": "External adaptation only",
+        "d": "Muscle activity"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    {
+      "question": "5. Thermoregulation helps to maintain:",
+      "answers": {
+        "a": "Blood pressure",
+        "b": "Body temperature",
+        "c": "Oxygen levels",
+        "d": "Heart rhythm"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}	 
+
+
+
+
+
+
+

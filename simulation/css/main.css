@@ -1,0 +1,256 @@
+/* ==========================================
+   Global Reset & Defaults
+   ========================================== */
+:root {
+    --primary: #0284c7;
+    --background: #f0f4f8;
+    --surface: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================
+   Custom Scrollbars (Chrome/Safari/Webkit)
+   ========================================== */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    /* Slate 300 */
+    border-radius: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+    /* Slate 400 */
+}
+
+/* ==========================================
+   Animations
+   ========================================== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-enter {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    15% {
+        transform: scale(1.15);
+    }
+
+    30% {
+        transform: scale(1)
+    }
+
+    45% {
+        transform: scale(1.15);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+}
+
+.animate-heartbeat {
+    animation: heartbeat 1s ease-in-out infinite;
+}
+
+/* ==========================================
+   Utility Classes & Overrides
+   ========================================== */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.text-glow {
+    text-shadow: 0 0 10px currentColor;
+}
+
+/* Video Overlay Patterns */
+.scanline {
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0) 50%,
+            rgba(0, 0, 0, 0.05) 50%,
+            rgba(0, 0, 0, 0.05));
+    background-size: 100% 4px;
+}
+
+/* Range input styling (for future implementation if needed) */
+input[type=range] {
+    -webkit-appearance: none;
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+/* ==========================================
+   Drill-Down Menu
+   ========================================== */
+
+#menu-panel {
+    transition: opacity 0.3s ease-in-out;
+}
+#menu-panel.fading {
+    opacity: 0;
+    pointer-events: none;
+}
+#menu-panel.visible {
+    opacity: 1;
+}
+
+.menu-group-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #94a3b8;
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 6px;
+}
+
+.btn-category {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    text-align: left;
+}
+.btn-category:hover {
+    background: #f0f9ff;
+    border-color: #7dd3fc;
+    color: #0284c7;
+    transform: translateX(3px);
+    box-shadow: 0 2px 8px rgba(2,132,199,0.12);
+}
+
+
+.selected-category-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #0284c7;
+    background: #e0f2fe;
+    border: 1px solid #7dd3fc;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.btn-temp {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.18s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.btn-temp:hover { transform: translateX(3px); }
+.btn-temp.cold { background:#eff6ff; border-color:#93c5fd; color:#1d4ed8; }
+.btn-temp.cold:hover { background:#dbeafe; border-color:#3b82f6; box-shadow:0 4px 14px rgba(59,130,246,0.25); }
+.btn-temp.normal { background:#f0fdf4; border-color:#86efac; color:#15803d; }
+.btn-temp.normal:hover { background:#dcfce7; border-color:#22c55e; box-shadow:0 4px 14px rgba(34,197,94,0.25); }
+.btn-temp.heat { background:#fff7ed; border-color:#fdba74; color:#c2410c; }
+.btn-temp.heat:hover { background:#ffedd5; border-color:#f97316; box-shadow:0 4px 14px rgba(249,115,22,0.25); }
+.btn-temp.active-cold { background:#1d4ed8; border-color:#1d4ed8; color:#fff; box-shadow:0 4px 14px rgba(29,78,216,0.35); }
+.btn-temp.active-normal { background:#15803d; border-color:#15803d; color:#fff; box-shadow:0 4px 14px rgba(21,128,61,0.35); }
+.btn-temp.active-heat { background:#c2410c; border-color:#c2410c; color:#fff; box-shadow:0 4px 14px rgba(194,65,12,0.35); }
+
+.btn-back {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    padding: 9px 14px;
+    border-radius: 9px;
+    border: 1px solid #e2e8f0;
+    background: #f8fafc;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #64748b;
+    cursor: pointer;
+    transition: all 0.18s ease;
+}
+.btn-back:hover { background:#f1f5f9; border-color:#94a3b8; color:#334155; }

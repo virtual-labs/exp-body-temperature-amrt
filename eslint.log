@@ -1,0 +1,31 @@
+
+/home/runner/work/exp-body-temperature-amrt/exp-body-temperature-amrt/experiment/simulation/js/main.js
+   138:10  warning  'subscribe' is defined but never used                no-unused-vars
+   271:24  warning  'lucide' is not defined                              no-undef
+   274:10  warning  'clsx' is defined but never used                     no-unused-vars
+   686:10  warning  'RenderBodyDisplay' is defined but never used        no-unused-vars
+   725:10  warning  'RenderOrganSystems' is defined but never used       no-unused-vars
+   752:10  warning  'updateControlPanel' is defined but never used       no-unused-vars
+   759:30  warning  'tempColorClass' is assigned a value but never used  no-unused-vars
+  1298:10  warning  'restoreBodyViewVideo' is defined but never used     no-unused-vars
+  1343:9   warning  'updateBodyView' is not defined                      no-undef
+  1389:10  warning  'showBodyPartImage' is defined but never used        no-unused-vars
+  1499:10  warning  'initVideoPlayer' is defined but never used          no-unused-vars
+  1578:10  warning  'initDragHandlers' is defined but never used         no-unused-vars
+
+/home/runner/work/exp-body-temperature-amrt/exp-body-temperature-amrt/experiment/simulation/script.js
+   138:10  warning  'subscribe' is defined but never used                no-unused-vars
+   271:24  warning  'lucide' is not defined                              no-undef
+   274:10  warning  'clsx' is defined but never used                     no-unused-vars
+   686:10  warning  'RenderBodyDisplay' is defined but never used        no-unused-vars
+   725:10  warning  'RenderOrganSystems' is defined but never used       no-unused-vars
+   752:10  warning  'updateControlPanel' is defined but never used       no-unused-vars
+   759:30  warning  'tempColorClass' is assigned a value but never used  no-unused-vars
+  1298:10  warning  'restoreBodyViewVideo' is defined but never used     no-unused-vars
+  1343:9   warning  'updateBodyView' is not defined                      no-undef
+  1389:10  warning  'showBodyPartImage' is defined but never used        no-unused-vars
+  1499:10  warning  'initVideoPlayer' is defined but never used          no-unused-vars
+  1578:10  warning  'initDragHandlers' is defined but never used         no-unused-vars
+
+✖ 24 problems (0 errors, 24 warnings)
+
